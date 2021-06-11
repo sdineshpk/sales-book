@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { BooksService } from '../books.service';
+import { BooksService } from '../../books.service';
 import { FormBuilder, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-import { Book } from '../book.model';
+import { Book } from '../../book.model';
 import { Subscription } from 'rxjs';
 
 @Component({
