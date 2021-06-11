@@ -48,10 +48,9 @@ export class SearchPageComponent implements OnInit {
     );
   }
   getBookDetails(id: number): void {
-    if(id){
       let item:any=this.items[id];
       this.booksService.books$.next(item);
-    }
+      this.router.navigate(['/home//books']);
   }
   ngOnDestroy(): void {
     this.subscriptions.forEach((subscription) => {

@@ -9,12 +9,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { SearchPageComponent } from './home-page/search-page/search-page.component';
+import { BookDetailsComponent } from './book-details/book-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
-    SearchPageComponent
+    SearchPageComponent,
+    BookDetailsComponent
   ],
   imports: [
     BrowserModule,
